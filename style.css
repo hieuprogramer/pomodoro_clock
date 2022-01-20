@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Digital";
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot");
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff") format("woff"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7") format("svg");
+}
+#container {
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#app {
+  background-color: #01012e;
+  padding: 50px;
+  border-radius: 5px;
+  color: white;
+}
+
+.length-control {
+  width: 250px;
+  display: inline-block;
+  font-size: 25px;
+}
+.length-control .btn-level {
+  display: inline-block;
+  margin-right: 20px;
+}
+.length-control #session-label, .length-control #break-label {
+  margin-bottom: 20px;
+}
+
+.timer {
+  width: 200px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 5px 0;
+  background-color: #0d2480;
+  font-family: "Digital";
+  font-size: 25px;
+}
+.timer #time-left {
+  margin-top: 10px;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+button {
+  margin-right: 20px;
+  cursor: pointer;
+}
